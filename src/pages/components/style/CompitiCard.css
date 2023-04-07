@@ -1,0 +1,36 @@
+.cardCompito {
+    background-image: linear-gradient(to left top, rgb(77, 77, 199), rgb(150,150,255));
+    border-radius: 25px 5px;
+    border: none;
+    margin-left: 17%;
+    margin-right: 17%;
+    position: absolute;
+    width: 66%;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+
+.materia{
+    background-color: transparent;
+    text-align: left;
+    font-size: 22px;
+    font-weight: 600;
+    margin-left: 9%;
+    margin-top: 10px;
+}
+.testo{
+    background-color: transparent;
+    text-align: left;
+    font-size: 19px;
+    margin-top: 10px;
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-bottom: 20px;
+}
+.giorno{
+    background: transparent;
+    text-align: left;
+    font-size: 18px;
+    font-weight: 300;
+    margin-left: 9%;
+    margin-top: 20px;
+}

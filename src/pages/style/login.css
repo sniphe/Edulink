@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-color: #1a1f36;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .logincentre {
+    margin: 0px auto;
+    width: 100%;
+    padding-top: -40px;
+    max-width: 100%;
+    margin-top: 30px;
+    max-height: 100%;
+    border-radius: 4px;
+    border: none;
+  }
+  
+.reset-pass > a {
+    text-align: center;
+    margin-bottom: 25px;
+    margin-left: -50%;
+    margin-top: 30px;
+    color: #FFF;
+}
+
+.psw-title{
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    margin-top: 15px;
+    margin-left: -50%;
+}
+  .align-center {
+    align-items: center; 
+  }
+  .center-center {
+    align-items: center;
+    justify-content: center;
+  }
+  .padding-top--64 {
+    padding-top: 64px;
+  }
+  .padding-top--24 {
+    padding-top: 24px;
+  }
+  .padding-top--48 {
+    padding-top: 48px;
+  }
+  .padding-bottom--24 {
+    padding-bottom: 24px;
+  }
+  .padding-horizontal--48 {
+    padding: 48px;
+  }
+  .padding-bottom--15 {
+    padding-bottom: 15px;
+  }
+  
+  span {
+      display: block;
+      font-size: 20px;
+      line-height: 28px;
+      color: #1a1f36;
+  }
+  label {
+      margin-bottom: 10px;
+  }
+  .reset-pass a,label {
+      font-size: 14px;
+      font-weight: 500;
+      display: block;
+  }
+
+  .and-page{
+    padding-top: 70px;
+  }
+
+  .inp{
+      font-size: 16px;
+      line-height: 28px;
+      padding: 8px 16px;
+      width: 100%;
+      min-height: 44px;
+      border: unset;
+      border: #FFF;
+      color:black;
+      border-radius: 25px;
+      background-color: rgba(255, 255,255, 0.8);
+  }
+  
+  /*button[type="button"] {
+      background-color: rgb(84, 105, 212);
+      box-shadow: rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                  rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                  rgba(0, 0, 0, 0.12) 0px 1px 1px 0px, 
+                  rgb(84, 105, 212) 0px 0px 0px 1px, 
+                  rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                  rgba(0, 0, 0, 0) 0px 0px 0px 0px, 
+                  rgba(60, 66, 87, 0.08) 0px 2px 5px 0px;
+      color: #fff;
+      border-radius: 30px;
+      font-weight: 600;
+      width: 70%;
+      font-size: 30px;
+      padding: 20px;
+      cursor: pointer;
+  }*/
+
+  .bottone{
+    background-image: linear-gradient(to left top, rgb(77, 77, 199), rgb(150,150,255));
+    color: #fff;
+    border:none;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    border-radius: 30px;
+    font-weight: 400;
+    width: 70%;
+    font-size: 30px;
+    padding: 20px;
+    cursor: pointer;
+    position:absolute;
+    margin-top: -10px;
+    margin-left: -35%;
+  }
+  .username-title{
+    font-size: 30px;
+    font-weight: 500;
+    color: white;
+    margin-top: 30px;
+    margin-left: -50%;
+  }
+
+  .title-page > h2{
+    margin-top: 20px;
+    font-size: 45px;
+    font-weight: 400;
+  }
+
+  .and-main{
+    font-weight: 500;
+    font-size: 50px;
+    color: #FFF;
+    margin-top: 60px;
+  }
+
+  .and-sbutitle{
+    font-weight: 200;
+    font-size: 25px;
+    color: #FFF;
+  }
