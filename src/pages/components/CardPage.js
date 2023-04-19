@@ -40,7 +40,7 @@ function CardPage(props){
             <div className="cardAssenzaAssenze">
                 <div className="text-box-cardavvisiavvisi">
                     <div className="giorno-avvisiavvisi">Data: {props.giorno}</div>
-                    <div className="titolo-avvisiavvisi">{props.tipo}:</div>
+                    <div className="titolo-avvisiavvisi">{props.tipoGiustifica}:</div>
                     <button className="testo-avvisiavvisi">Giustifica</button>
                 </div>
             </div>

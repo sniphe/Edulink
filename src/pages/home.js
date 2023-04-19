@@ -1,12 +1,8 @@
 import React from 'react';
 import './style/home.css';
-import CardCompito from './components/CompitiCardHome';
-import CardAvviso from './components/AvvisiCardHome';
 import Carousel from './components/Carousel'
 import { useHistory } from "react-router-dom";
-import Compiti from './compiti';
-import CardVerifica from './components/VerificheCardHome';
-import AssenzeCardHome from './components/AssenzeCardHome';
+import CardHome from './components/CardHome';
 
 const Home = () => {
 
@@ -43,10 +39,10 @@ const Home = () => {
       </div>
       <div className='Carosel'>
         <Carousel>
-          <CardCompito testo={filtro("sdfajsdfklsjadfsajdfklasjdjfslakd")} materia={"Storia"} giorno={"31/02/2023"}/>
-          <CardVerifica testo={filtro("sdfajsdfklsjadfsajdfklasjdjfslakd")} materia={"Informatica"} giorno={"31/02/2023"}/>
-          <CardCompito testo={filtro("sdfajsdfklsjadfsajdfklasjdjfslakd")} materia={"Suca"} giorno={"31/02/2023"}/>
-          <CardVerifica testo={"Mockingbird"} materia={"Eminem"} giorno={"31/02/2023"}/>
+          <CardHome tipo="compito" testo={filtro("sdfajsdfklsjadfsajdfklasjdjfslakd")} materia={"Storia"} giorno={"31/02/2023"}/>
+          <CardHome tipo="verifica" testo={filtro("sdfajsdfklsjadfsajdfklasjdjfslakd")} materia={"Informatica"} giorno={"31/02/2023"}/>
+          <CardHome tipo="compito" testo={filtro("sdfajsdfklsjadfsajdfklasjdjfslakd")} materia={"Suca"} giorno={"31/02/2023"}/>
+          <CardHome tipo="verifica" testo={"Mockingbird"} materia={"Eminem"} giorno={"31/02/2023"}/>
         </Carousel>
       </div>
       <div className='Avvisi'>
@@ -55,10 +51,10 @@ const Home = () => {
       </div>
       <div className='Carosel2'>
         <Carousel>
-          <CardAvviso testo={filtro("sdfajsdfklsjadfsajdfklasjdjfslakd")} titolo={"Storia"} giorno={"31/02/2023"}/>
-          <CardAvviso testo={filtro("sdfajsdfklsjadfsajdfklasjdjfslakd")} titolo={"Informatica"} giorno={"31/02/2023"}/>
-          <CardAvviso testo={filtro("sdfajsdfklsjadfsajdfklasjdjfslakd")} titolo={"Suca"} giorno={"31/02/2023"}/>
-          <CardAvviso testo={filtro("Mockingbird")} titolo={"Eminem"} giorno={"31/02/2023"}/>
+          <CardHome tipo="avviso" testo={filtro("sdfajsdfklsjadfsajdfklasjdjfslakd")} titolo={"Storia"} giorno={"31/02/2023"}/>
+          <CardHome tipo="avviso" testo={filtro("sdfajsdfklsjadfsajdfklasjdjfslakd")} titolo={"Informatica"} giorno={"31/02/2023"}/>
+          <CardHome tipo="avviso" testo={filtro("sdfajsdfklsjadfsajdfklasjdjfslakd")} titolo={"Suca"} giorno={"31/02/2023"}/>
+          <CardHome tipo="avviso" testo={filtro("Mockingbird")} titolo={"Eminem"} giorno={"31/02/2023"}/>
         </Carousel>
       </div>
       <div className='Assenze'>
@@ -67,10 +63,10 @@ const Home = () => {
       </div>
       <div className='Carosel3'>
         <Carousel>
-          <AssenzeCardHome tipo={"Ritardo"} giorno={"31/02/2023"}/>
-          <AssenzeCardHome tipo={"Assenza"} giorno={"35/02/2023"}/>
-          <AssenzeCardHome tipo={"Assenza"} giorno={"341/02/2023"}/>
-          <AssenzeCardHome tipo={"Great Eminem"} giorno={"1/1/2021"}/>
+          <CardHome tipo="assenze" tipoGiustifica={"Ritardo"} giorno={"31/02/2023"}/>
+          <CardHome tipo="assenze" tipoGiustifica={"Assenza"} giorno={"35/02/2023"}/>
+          <CardHome tipo="assenze" tipoGiustifica={"Assenza"} giorno={"341/02/2023"}/>
+          <CardHome tipo="assenze" tipoGiustifica={"Great Eminem"} giorno={"1/1/2021"}/>
         </Carousel>
       </div>
     </div>

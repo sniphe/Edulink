@@ -40,7 +40,7 @@ function CardHome(props){
             <div className="cardAssenza">
                 <div className="text-box-Assenza">
                     <div className="giorno-Assenza-home">Data: {props.giorno}</div>
-                    <div className="tipo-Assenza-home">{props.tipo}:</div>
+                    <div className="tipo-Assenza-home">{props.tipoGiustifica}:</div>
                     <button className="bottone-giustificaAssenza-home">Giustifica</button>
                 </div>
             </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import { useHistory } from "react-router-dom";
 import './style/assenze.css'
-import CardAssenzaAssenze from "./components/AssenzeCardAssenze";
+import CardPage from "./components/CardPage";
 
 function Assenze(){
     let history = useHistory();
@@ -13,7 +13,7 @@ function Assenze(){
         <div>
             <div className="titolo-assenze"><div><button className='pagina-home-da-assenze' onClick={handleLogin}>{"<"}</button></div>Assenze</div>
             <div className="assenze">
-             <CardAssenzaAssenze testo={"sdfajsdfklsjadfsajdfklasjdjfslakd"} tipo={"ciao"} giorno={"31/02/2023"}/>
+             <CardPage tipo="assenza" testo={"sdfajsdfklsjadfsajdfklasjdjfslakd"} tipoGiustifica={"ciao"} giorno={"31/02/2023"}/>
             </div>
         </div>
     )
