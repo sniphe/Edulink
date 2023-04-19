@@ -1,0 +1,34 @@
+.titolo-compiti{
+    lighting-color: white;
+    margin-top: -15px;
+    font-size: 55px;
+    font-weight: 500;
+    background: transparent;
+    border: none;
+}
+
+.compiti{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.pagina-home-da-compiti{
+    position: absolute;
+    margin-top: -55px;
+    margin-right: 100%;
+    border-radius: 25px;
+    border: none;
+    margin-left: 5%;
+    margin-top: 25px;
+    font-weight: 900;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    width: 10.3%;
+    font-weight: 500;
+}
+.titolo-compiti > div{
+    text-align: left;
+}
