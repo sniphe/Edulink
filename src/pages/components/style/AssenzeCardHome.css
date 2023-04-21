@@ -1,5 +1,5 @@
 .cardAssenza{
-    background-image: linear-gradient(to left top, rgba(166, 255, 0, 0.2), rgba(0, 138, 126, 0.5));
+    background-image: linear-gradient(to left top, rgba(166, 255, 0, 0.2), rgba(255, 251, 0, 0.5));
     border-radius: 25px 5px;
     border: none;
     justify-content: center;
@@ -19,13 +19,13 @@
 .tipo-Assenza-home{
     background: transparent;
     margin-top: 15px;
-    font-weight: 600;
+    font-weight: 400;
 }
 
 .bottone-giustificaAssenza-home{
-    background-image: linear-gradient(to left top, rgba(174, 0, 255, 0.2), rgba(247, 67, 151, 0.5));
-    color: white;
-    border: none;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border: solid;
     border-radius: 25px;
     padding-left: 25%;
     padding-right: 25%;
@@ -33,11 +33,11 @@
     padding-top: 10px;
     padding-bottom: 10px;
     margin-top: 15px;
+    font-weight: 800;
 }
 
 .giorno-Assenza-home{
     background: transparent;
     margin-top: 20px;
     font-size: 17px;
-    font-weight: 400;
 }

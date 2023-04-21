@@ -6,6 +6,7 @@ import {BrowserRouter as Router, Switch, Route } from "react-router-dom"
 import Compiti from './pages/compiti';
 import Avvisi from './pages/avvisi';
 import Assenze from './pages/assenze';
+import Note from './pages/note';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/compiti" component={Compiti}/>
           <Route path="/avvisi" component={Avvisi}/>
           <Route path="/assenze" component={Assenze}/>
+          <Route path='/note' component={Note}/>
         </Switch>
       </div>
     </Router>

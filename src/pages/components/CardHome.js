@@ -3,6 +3,7 @@ import './style/CompitiCardHome.css';
 import './style/VerificheCardHome.css';
 import './style/AvvisiCardHome.css';
 import './style/AssenzeCardHome.css';
+import './style/NotaCardHome.css'
 
 function CardHome(props){
     if(props.tipo == "compito"){
@@ -45,8 +46,16 @@ function CardHome(props){
                 </div>
             </div>
         )
-    }else{
-        console.log("controllare il tipo dei props della card disegnata")
+    }else if(props.tipo == "note"){
+        return(
+            <div className="cardNote">
+                <div className="text-box-cardNote">
+                    <div className="giorno-Note">Data: {props.giorno}</div>
+                    <div className="prof-Note">{props.prof}:</div>
+                    <div className="testo-Note">{props.testo}</div>
+                </div>
+            </div>
+        )
     }
 }
 

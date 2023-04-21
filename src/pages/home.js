@@ -19,11 +19,16 @@ const Home = () => {
   }
 
   let collegamento3 = useHistory();
-  function toAvvisi() {
+  function toRitardi() {
     collegamento3.push('/assenze')
     window.location.reload();
   }
 
+  let collegamento4 = useHistory();
+  function toNote() {
+    collegamento3.push('/note')
+    window.location.reload();
+  }
   return (
     <div className="home">
       <div className="title-page">Home</div>
@@ -59,7 +64,7 @@ const Home = () => {
       </div>
       <div className='Assenze'>
         <div className="titolo-scadenze">Assenze & Ritardi</div>
-        <button className='pagina-compiti' onClick={toAvvisi}>{">"}</button>
+        <button className='pagina-compiti' onClick={toRitardi}>{">"}</button>
       </div>
       <div className='Carosel3'>
         <Carousel>
@@ -68,6 +73,21 @@ const Home = () => {
           <CardHome tipo="assenze" tipoGiustifica={"Assenza"} giorno={"341/02/2023"}/>
           <CardHome tipo="assenze" tipoGiustifica={"Great Eminem"} giorno={"1/1/2021"}/>
         </Carousel>
+      </div>
+      <div className='Note'>
+        <div className="titolo-scadenze">Note</div>
+        <button className='pagina-compiti' onClick={toNote}>{">"}</button>
+      </div>
+      <div className='Carosel3'>
+        <Carousel>
+          <CardHome tipo="note" prof={"Rolando"} giorno={"31/02/2023"} testo={filtro("sdfajsdfklsjadfsajdfklasjdjfslakd")}/>
+          <CardHome tipo="note" prof={"Iachi"} giorno={"35/02/2023"} testo={filtro("sdfajsdfklsjadfsajdfklasjdjfslakd")}/>
+          <CardHome tipo="note" prof={"Abate"} giorno={"341/02/2023"} testo={filtro("sdfajsdfklsjadfsajdfklasjdjfslakd")}/>
+          <CardHome tipo="note" prof={"Costanzo"} giorno={"1/1/2021"} testo={filtro("sdfajsdfklsjadfsajdfklasjdjfslakd")}/>
+        </Carousel>
+      </div>
+      <div className="bottoneOpzioni">
+        
       </div>
     </div>
   );

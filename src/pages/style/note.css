@@ -1,21 +1,13 @@
-.titolo-avvisi{
+.titolo-note{
     lighting-color: white;
-    margin-top: 30px;
+    margin-top: 25px;
     font-size: 55px;
     font-weight: 500;
     background: transparent;
+    font-family: 'Poppins', sans-serif;
     border: none;
 }
-
-.avvisi{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    gap: 30px;
-    margin-top: 50px;
-}
-
-.pagina-home-da-avvisi{
+.pagina-home-da-note{
     position: absolute;
     margin-top: -55px;
     margin-right: 100%;
@@ -29,6 +21,13 @@
     width: 10.3%;
     font-weight: 500;
 }
-.titolo-avvisi > div{
+.titolo-note > div{
     text-align: left;
+}
+.note{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
 }
