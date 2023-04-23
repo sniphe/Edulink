@@ -12,22 +12,23 @@ const Home = () => {
     window.location.reload();
   }
 
-  let collegamento2 = useHistory();
   function toAvvisi() {
-    collegamento2.push('/avvisi')
+    collegamento1.push('/avvisi')
     window.location.reload();
   }
   
-
-  let collegamento3 = useHistory();
   function toRitardi() {
-    collegamento3.push('/assenze')
+    collegamento1.push('/assenze')
     window.location.reload();
   }
 
-  let collegamento4 = useHistory();
   function toNote() {
-    collegamento4.push('/note')
+    collegamento1.push('/note')
+    window.location.reload();
+  }
+
+  function toLogin(){
+    collegamento1.push('/')
     window.location.reload();
   }
   return (
@@ -87,8 +88,18 @@ const Home = () => {
           <CardHome tipo="note" prof={"Costanzo"} giorno={"1/1/2021"} testo={filtro("sdfajsdfklsjadfsajdfklasjdjfslakd")}/>
         </Carousel>
       </div>
-      <div className="bottoneOpzioni">
-        
+      <div className='titolo-opzioni-aggiuntive'>Opzioni aggiuntive:</div>
+      <div className="bottoniOpzioni">
+        <button>Statistiche</button>
+        <button>Chat Classe</button>
+        <button>Chat Professori</button>
+        <button>Colloqui</button>
+        <button>Didattica</button>
+        <button onClick={toLogin}>Logout</button>
+      </div>
+      <div className="and-page-home">
+        <hgroup className='and-main-home'>Edulink</hgroup>
+        <hgroup className='and-sbutitle-home'>Un nuovo modo di fare scuola</hgroup>
       </div>
     </div>
   );
