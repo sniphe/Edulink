@@ -17,6 +17,7 @@ const Home = () => {
     collegamento2.push('/avvisi')
     window.location.reload();
   }
+  
 
   let collegamento3 = useHistory();
   function toRitardi() {
@@ -26,7 +27,7 @@ const Home = () => {
 
   let collegamento4 = useHistory();
   function toNote() {
-    collegamento3.push('/note')
+    collegamento4.push('/note')
     window.location.reload();
   }
   return (
@@ -93,7 +94,7 @@ const Home = () => {
   );
 };
 
-let voti = [7,9,10,6];
+let voti = [7.5,8.5,10,6];
 
 let Media = () =>{
   let sum = voti.reduce((a, b) => a + b, 0);
