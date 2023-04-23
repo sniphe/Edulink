@@ -7,6 +7,7 @@ import Compiti from './pages/compiti';
 import Avvisi from './pages/avvisi';
 import Assenze from './pages/assenze';
 import Note from './pages/note';
+import chatClasse from './pages/chatClasse';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           <Route path="/avvisi" component={Avvisi}/>
           <Route path="/assenze" component={Assenze}/>
           <Route path='/note' component={Note}/>
+          <Route path='/chatclasse' component={chatClasse}/>
         </Switch>
       </div>
     </Router>

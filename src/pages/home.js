@@ -11,25 +11,25 @@ const Home = () => {
     collegamento1.push("/compiti");
     window.location.reload();
   }
-
   function toAvvisi() {
     collegamento1.push('/avvisi')
     window.location.reload();
   }
-  
   function toRitardi() {
     collegamento1.push('/assenze')
     window.location.reload();
   }
-
   function toNote() {
     collegamento1.push('/note')
     window.location.reload();
   }
-
   function toLogin(){
     collegamento1.push('/')
     window.location.reload();
+  }
+  function toChatClasse(){
+    collegamento1.push('/chatclasse')
+    window.location.reload()
   }
   return (
     <div className="home">
@@ -91,7 +91,7 @@ const Home = () => {
       <div className='titolo-opzioni-aggiuntive'>Opzioni aggiuntive:</div>
       <div className="bottoniOpzioni">
         <button>Statistiche</button>
-        <button>Chat Classe</button>
+        <button onClick={toChatClasse}>Chat Classe</button>
         <button>Chat Professori</button>
         <button>Colloqui</button>
         <button>Didattica</button>

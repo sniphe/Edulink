@@ -1,0 +1,24 @@
+.chatClasse-main{
+    font-size: 50px;
+}
+
+.contenitore-titlo-chatClasse{
+    display: flex;
+    justify-content: center;
+    gap: 50%;
+    margin-top: 20px;
+}
+
+.da-chatClasse-a-Home{
+    position: absolute;
+    margin-right: 100%;
+    border-radius: 25px;
+    border: none;
+    margin-left: 15%;
+    margin-top: 21px;
+    font-weight: 900;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    width: 10.3%;
+    font-weight: 500;
+}
