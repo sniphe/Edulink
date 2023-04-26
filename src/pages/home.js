@@ -31,6 +31,10 @@ const Home = () => {
     collegamento1.push('/chatclasse')
     window.location.reload()
   }
+  function toChatProfessori(){
+    collegamento1.push('/chatprofessori')
+    window.location.reload()
+  }
   return (
     <div className="home">
       <div className="title-page">Home</div>
@@ -92,7 +96,7 @@ const Home = () => {
       <div className="bottoniOpzioni">
         <button>Statistiche</button>
         <button onClick={toChatClasse}>Chat Classe</button>
-        <button>Chat Professori</button>
+        <button onClick={toChatProfessori}>Chat Professori</button>
         <button>Colloqui</button>
         <button>Didattica</button>
         <button onClick={toLogin}>Logout</button>

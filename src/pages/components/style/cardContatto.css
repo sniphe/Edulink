@@ -1,23 +1,24 @@
 .contatto{
-    background-color: rgba(255,255,255,0.25);
+    background-color: rgba(255, 255, 255, 0.1);
     width: 100%;
     display: flex;
     border: none;
     justify-content: center;
     margin-top: 20px;
     font-size: 35px;
-    border-radius: 15px;
     height: 65px;
-    width: 90%;
     margin-left: 5%;
     margin-right: 5%;
+    border-radius: 32px;
+    width: 90%;
 }
 
 .nome{
     background-color: transparent;
     position: absolute;
-    margin-top: 5px;
-    margin-left: 15%;
+    margin-top: 10px;
+    font-size: 27px;
+    margin-left: 12.5%;
 }
 
 .img-profilo{

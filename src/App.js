@@ -8,6 +8,7 @@ import Avvisi from './pages/avvisi';
 import Assenze from './pages/assenze';
 import Note from './pages/note';
 import chatClasse from './pages/chatClasse';
+import ChatProfessori from './pages/chatProfessori';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
           <Route path="/assenze" component={Assenze}/>
           <Route path='/note' component={Note}/>
           <Route path='/chatclasse' component={chatClasse}/>
+          <Route path='/chatprofessori' component={ChatProfessori}/>
         </Switch>
       </div>
     </Router>

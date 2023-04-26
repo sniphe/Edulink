@@ -11,16 +11,7 @@ function ChatClasse() {
     window.location.reload();
   }
 
-  function filtro2(STRINGA){
-    let LungMax = 10
-    let shortenedString = STRINGA.substring(0, LungMax);
-    let puntini = shortenedString+"..."
-    return(
-      puntini
-    )
-  }
-
-  let contati = ["Alessio", "pippo", "superman", "gianluca", "Ronaldo"]
+  let contati = ["sdfkjsdfkjsadklf"]
 
   let Ncontatti = () => {
     let cont = [];
