@@ -35,11 +35,20 @@ const Home = () => {
     collegamento1.push('/chatprofessori')
     window.location.reload()
   }
+
+  function toVoti(){
+    collegamento1.push('/voti')
+    window.location.reload()
+  }
   return (
     <div className="home">
       <div className="title-page">Home</div>
       <Media />
       <div className="ultimivoti">
+        <div className="perVoti">
+          <div className="titolovoti">Ultimi voti</div>
+          <button className='bottone-per-voti' onClick={toVoti}>{">"}</button>
+        </div>
         <div className='containervoti'>
           <Pallini />
         </div>

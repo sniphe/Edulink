@@ -9,6 +9,7 @@ import Assenze from './pages/assenze';
 import Note from './pages/note';
 import chatClasse from './pages/chatClasse';
 import ChatProfessori from './pages/chatProfessori';
+import Voti from './pages/voti';
 
 function App() {
   return (
@@ -23,6 +24,7 @@ function App() {
           <Route path='/note' component={Note}/>
           <Route path='/chatclasse' component={chatClasse}/>
           <Route path='/chatprofessori' component={ChatProfessori}/>
+          <Route path='/voti' component={Voti}/>
         </Switch>
       </div>
     </Router>

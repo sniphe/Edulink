@@ -176,3 +176,29 @@
     margin-right: 15%;
     margin-bottom: 50px;
 }
+
+.perVoti{
+    display:inline-flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    margin-top: 20px;
+}
+
+.titolovoti{
+    position: absolute;
+    font-weight: 600;
+    margin-right: 69%;
+    font-size: 17px;
+}
+
+.bottone-per-voti{
+    position: absolute;
+    margin-left: 80%;
+    border-radius: 25px;
+    border: none;
+    font-weight: 900;
+    font-size: 22px;
+    color: rgb(255, 255, 255);
+    width: 10.3%;
+    font-weight: 500;
+}
