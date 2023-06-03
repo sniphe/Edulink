@@ -7,6 +7,10 @@
     border: none;
 }
 
+.materia-voti{
+    margin-top: 20px;
+}
+
 .pagina-home-da-avvisi{
     position: absolute;
     margin-top: -55px;
@@ -20,4 +24,47 @@
     color: rgb(255, 255, 255);
     width: 10.3%;
     font-weight: 500;
+}
+
+.contenitoremateria{
+    background-color: rgba(255, 255, 255, 0.233);
+    border-radius: 25px;
+    width: 90%;
+    margin-left: 5%;
+    padding-top: 22px;
+    font-size: 20px;
+    padding-bottom: 15px;
+}
+
+.mediamateria, .professori2, .materia1{
+    background: transparent;
+    width: 50%;
+}
+
+.mediamateria{
+    position: absolute;
+    margin-left: 45%;
+    margin-top: -20%;
+    font-size: 35px;
+}
+
+.professori2, .materia1{
+    margin-left: 7.5%;
+    
+}
+
+.materia1{
+    margin-bottom: 5px;
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.professori2{
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+.materia{
+    background-color: transparent;
 }

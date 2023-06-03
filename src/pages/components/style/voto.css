@@ -1,0 +1,78 @@
+.containerVoto{
+    background-color: rgb(46, 42, 83);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -6px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -9px inset;
+    border-radius: 25px;
+    border: solid;
+    border: 0px;
+    margin-left: 5%;
+    margin-right: 10%;
+    justify-content: center;
+    width: 90%;
+    margin-top: 2.5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-bottom: 2.5%;
+}
+
+.pallino, .materiaVoto, .professore, .data,.contenitoreCardVoti{
+    background-color: transparent;
+}
+
+.pallino{
+    background-color: green;
+    border-radius: 10000px;
+    width: 15%;
+    text-align: center;
+    font-size: 25px;
+    position: absolute;
+    padding-top: 1.5%;
+    justify-content: center;
+    padding-top: 2.2%;
+    padding-bottom: 2.2%;
+    margin-top: 15px;
+    margin-left: 4%;
+}
+
+.materiaVoto{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.contenitoreCardVoti{
+    text-align: left;
+    margin-left: 30%;
+    
+}
+
+.professore, .data{
+    font-weight: 200;
+    font-size: 17px;
+}
+
+.pallino1{
+    background-color: rgb(196, 95, 0);
+    border-radius: 10000px;
+    width: 15%;
+    font-size: 25px;
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    margin-top: 15px;
+    padding-top: 2.2%;
+    padding-bottom: 2.2%;
+    margin-left: 4%;
+}
+
+.pallino2{
+    background-color: rgb(189, 39, 1);
+    border-radius: 10000px;
+    width: 15%;
+    font-size: 25px;
+    position: absolute;
+    margin-top: 15px;
+    text-align: center;
+    margin-left: 4%;
+    justify-content: center;
+    padding-top: 2.2%;
+    padding-bottom: 2.2%;
+}

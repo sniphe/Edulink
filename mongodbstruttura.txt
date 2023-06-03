@@ -1,0 +1,41 @@
+DB Scuole
+
+users[
+    #1100000:{
+        password:"sdfjhasdjkf"
+        username:"asdfljsadfjsaid"
+        Scuola: "Majo"
+        tipo: Studente
+        classe:1B
+    } 
+]
+
+Scuole{
+    Majo{
+    Studenti:{
+        id
+    }
+    Docenti:{}
+    Personale:{}
+    Comunicazioni:{}
+    Studenti:[
+                #1100000:{
+                    nome:
+                    cognome:
+                    tipo
+                }
+            ]
+    Classi:{
+        1A:{
+            
+        }
+        1B:{}
+        1C:{}
+    }
+    }
+}
+
+
+DB.Scuole.users.
+
+db.findOne{password:"sdfjhasdjkf", Username: "asdfljsadfjsaid"}

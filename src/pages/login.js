@@ -13,7 +13,7 @@ const Login = ()=>{
     history.push("/home");
   }
   return (
-   <div className="logincentre">
+   <div className="logincentrea">
     <div className="title-page"><h2>Login</h2></div>
     <div className="logincentre-inner padding-horizontal--48">
    <form id="stripe-login">
